@@ -27,7 +27,7 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 ![image](https://github.com/user-attachments/assets/b9ff1bc8-a313-4621-b283-5f55f27a158a)
 
 ### Read data from Excel
-1. Use the Exceutils class under the utility package to read data from excel sheet.
+1. Use the Excelutils class under the utility package to read data from excel sheet.
 2. The data is read as a HashMap with the first column being the key and the data in the remaining columns are stored as a list of strings is the value. For example the 'MenuItems' in the picture below is a key and the List of strings "U.S."	"World"	"Business"	"Arts"	"Lifestyle"	"Opinion"	"Audio"	"Games"	"Cooking"	"Wirecutter" and "The Athletic" is the value.
 3. To understand the sample usage in code refer to the _Scenario Outline : As a user I want to verify the menu items_ in the nyctimes.feature.
 4. The excel _'SheetName'_ and _'DataKey'_ are passed from the cucumber Examples table.
@@ -41,12 +41,12 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 
    ![image](https://github.com/user-attachments/assets/21a2c20e-4daf-486b-bd34-10a5c50a161a)
 
-### Confguring run tags
+### Configuring run tags
 1. Run tags can be configured in the _TestRunner_ files under _./src/test/java/runners_ package. For example add the tag below **'@SmokeTest1'** runs all tests with the same tag in the featurelib folder. For more details on tags please refer to [Cucumber reference documentation on tags](https://cucumber.io/docs/cucumber/api/?lang=java#tags).
 2. In the Runner file _src/test/java/runners_ folder open the TestRunner file and add your tag.
 3. Run the test from commandline or IDE.
 
-Fature file
+Feature file
 
 ![image](https://github.com/user-attachments/assets/83bb655b-4199-4c1a-9a7f-9fe504749158)
 
@@ -61,7 +61,7 @@ Runner file
 2. For step implementations add you step definition files under  _./src/test/java/stepdefinitions_ package. For help please refer to the [Cucumber Step Sefinitions documentation](https://cucumber.io/docs/cucumber/step-definitions/?lang=java)
 
 ### Run tests in parallel
-1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of derired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
+1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of desired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
 2. Run the run test locally from IDE or from commandline `mvn clean test`. The tests should be trigerred parallelly.
 
 ### Run from Jenkins(CI/CD)
