@@ -1,4 +1,4 @@
- # SeleniumCu_FW Selenium Cucumber BDD Framework
+![image](https://github.com/user-attachments/assets/c9e53e20-017f-485a-a3c1-6bb29c334ae0) # SeleniumCu_FW Selenium Cucumber BDD Framework
 A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 designed to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications(living test documentation).
 
 ## Getting Started
@@ -60,7 +60,7 @@ Runner file
 2. For step implementations add you step definition files under  _./src/test/java/stepdefinitions_ package. For help please refer to the [Cucumber Step Sefinitions documentation](https://cucumber.io/docs/cucumber/step-definitions/?lang=java)
 
 ### Run tests in parallel
-1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of derired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image](https://github.com/user-attachments/assets/22ffea88-902d-46ff-8331-fa393881f5a0)
+1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of derired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image]![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
 2. Run the run test locally from IDE or from commandline `mvn clean test`. The tests should be trigerred parallelly.
 
 ### Run from Jenkins(CI/CD)
@@ -78,7 +78,7 @@ The test generate reports the following reports automatically and stores them un
 Please refer to the sample reports from previous runs under  _./archive-reports/_.
 
 For a quick reference a screenshot of the report provided below.
-![image](https://github.com/user-attachments/assets/b82cfac6-8e6a-40cf-b0a1-45dec3901c89)
+![image](https://github.com/user-attachments/assets/41b5e960-7ade-4b91-831f-b92f3c2d9b41)
 
 ## Sample Test Cases
 - The detailed sample test cases for testing the https://www.nytimes.com/ web application is present under the _./Test Cases_ folder.
