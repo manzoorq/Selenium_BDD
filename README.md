@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c9e53e20-017f-485a-a3c1-6bb29c334ae0) # SeleniumCu_FW Selenium Cucumber BDD Framework
+# SeleniumCu_FW Selenium Cucumber BDD Framework
 A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 designed to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications(living test documentation).
 
 ## Getting Started
