@@ -68,8 +68,8 @@ Runner file
 
 ### Run from Jenkins(CI/CD)
 1. Spin up Jenkins server in you system and create a maven style project.
-2. Add the pom.xml local path in the project/job configuration.![image](https://github.com/user-attachments/assets/7cb550d2-5b73-4da7-aaf6-ee18be03def7)
-3. Alternatively to build from remote you can provide github/scm details like repository url, branch name etc.![image](https://github.com/user-attachments/assets/4362c845-a831-4c7c-a4c8-b2f240294d8d)
+2. Add the pom.xml local path in the project/job configuration.![image](https://github.com/user-attachments/assets/7b6ad7bc-d9f6-4560-b45a-91be87a45e1c)
+3. Alternatively to build from remote you can provide github/scm details like repository url, branch name etc.![image](https://github.com/user-attachments/assets/2e8d00fa-c9ae-43c7-ac1a-4ad02f6e4c1d)
 4. Save the project/job and Click _Build Now_.
 5. Refer to **sample jenkins console output logs** from previous Jenkins runs under the folder _./archive-reports/jenkins_
 
