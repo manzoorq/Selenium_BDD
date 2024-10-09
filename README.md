@@ -31,16 +31,14 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 2. The data is read as a HashMap with the first column being the key and the data in the remaining columns are stored as a list of strings is the value. For example the 'MenuItems' in the picture below is a key and the List of strings "U.S."	"World"	"Business"	"Arts"	"Lifestyle"	"Opinion"	"Audio"	"Games"	"Cooking"	"Wirecutter" and "The Athletic" is the value.
 3. To understand the sample usage in code refer to the _Scenario Outline : As a user I want to verify the menu items_ in the nyctimes.feature.
 4. The excel _'SheetName'_ and _'DataKey'_ are passed from the cucumber Examples table.
-   ![image](https://github.com/user-attachments/assets/c3f79efc-f29e-4030-b38f-0c165859db7b)
+   ![image](https://github.com/user-attachments/assets/ae98288a-509b-4e0a-b1f4-162f1e886a1c)
 
 ### Read data from Properties file
 1. The properties file reader utility is implemented under utils package.
 2. It helps to read data data from the config.properties file present under the _./resources/config.properties_ file.
 3. Use the loadData() method to load the config.property file and getObject(<<property name>) method to read properties.
 4. For example please refer to the Log in functionliy test scenario where username and password have been read from the config.properties file.
-
-![image](https://github.com/user-attachments/assets/1f8476ba-b70f-4c7b-bf3e-8fc8b0068608)
-
+![image](https://github.com/user-attachments/assets/21a2c20e-4daf-486b-bd34-10a5c50a161a)
 
 ### Confguring run tags
 1. Run tags can be configured in the _TestRunner_ files under _./src/test/java/runners_ package. For example add the tag below **'@SmokeTest1'** runs all tests with the same tag in the featurelib folder. For more details on tags please refer to [Cucumber reference documentation on tags](https://cucumber.io/docs/cucumber/api/?lang=java#tags).
@@ -49,11 +47,12 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 
 Fature file
 
-![image](https://github.com/user-attachments/assets/0ab17f35-b7a1-48ae-a234-58cdbfefa5cc) ![image](https://github.com/user-attachments/assets/afa3b34b-969b-4776-8e82-f68daf0a9e23)
+![image](https://github.com/user-attachments/assets/83bb655b-4199-4c1a-9a7f-9fe504749158)
+
 
 Runner file
 
-![image](https://github.com/user-attachments/assets/4ab828cf-d26e-4093-8490-b9dd4ca010a9)
+![image](https://github.com/user-attachments/assets/81506001-5228-4d76-9640-03c50d20c4ea)
 
 
 ### Adding new Feature files and Step Definitions
