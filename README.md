@@ -37,7 +37,7 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 1. The properties file reader utility is implemented under utils package.
 2. It helps to read data from the config.properties file present under the _./resources/config.properties_ file.
 3. Use the loadData() method to load the config.property file and getObject(<<property name>) method to read properties.
-4. For example please refer to the Log in functionliy test scenario where username and password have been read from the config.properties file.
+4. For example please refer to the Log in functionality test scenario where username and password have been read from the config.properties file.
 
    ![image](https://github.com/user-attachments/assets/21a2c20e-4daf-486b-bd34-10a5c50a161a)
 
@@ -58,7 +58,7 @@ Runner file
 
 ### Adding new Feature files and Step Definitions
 1. To add new features create your feature files under the _./resources/featurelib/_ folder. Refer to [Cucumber Gherkin Reference](https://cucumber.io/docs/gherkin/reference/) for writing better formatted feature files in Gherkin format.
-2. For step implementations add you step definition files under  _./src/test/java/stepdefinitions_ package. For help please refer to the [Cucumber Step Sefinitions documentation](https://cucumber.io/docs/cucumber/step-definitions/?lang=java)
+2. For step implementations add you step definition files under  _./src/test/java/stepdefinitions_ package. For help please refer to the [Cucumber Step Stepdefinitions documentation](https://cucumber.io/docs/cucumber/step-definitions/?lang=java)
 
 ### Run tests in parallel
 1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of desired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
