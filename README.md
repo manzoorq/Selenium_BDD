@@ -38,6 +38,7 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 2. It helps to read data data from the config.properties file present under the _./resources/config.properties_ file.
 3. Use the loadData() method to load the config.property file and getObject(<<property name>) method to read properties.
 4. For example please refer to the Log in functionliy test scenario where username and password have been read from the config.properties file.
+
    ![image](https://github.com/user-attachments/assets/21a2c20e-4daf-486b-bd34-10a5c50a161a)
 
 ### Confguring run tags
