@@ -4,7 +4,7 @@ A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 desi
 ## Getting Started
 - Clone the repo 'SeleniumCu_FW' to you local machine from commandline by typing `git clone <repo url>.
 - Alternatively open any IDE like Eclipse or InetlliJ and import/clone project from the github repo url as depicted below. 
-![image](https://github.com/user-attachments/assets/b9a2860e-96bb-4b64-9f58-c3c29bd2edcd)
+![image](https://github.com/user-attachments/assets/2070a1fc-104d-425d-928a-7597b84d03e2)
 
 ### Prerequisite
 - Java Development Kit (JDK 8 or higher)
