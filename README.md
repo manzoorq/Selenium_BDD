@@ -31,7 +31,7 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 2. The data is read as a HashMap with the first column being the key and the data in the remaining columns are stored as a list of strings is the value. For example the 'MenuItems' in the picture below is a key and the List of strings "U.S."	"World"	"Business"	"Arts"	"Lifestyle"	"Opinion"	"Audio"	"Games"	"Cooking"	"Wirecutter" and "The Athletic" is the value.
 3. To understand the sample usage in code refer to the _Scenario Outline : As a user I want to verify the menu items_ in the nyctimes.feature.
 4. The excel _'SheetName'_ and _'DataKey'_ are passed from the cucumber Examples table.
-   ![image](https://github.com/user-attachments/assets/ae98288a-509b-4e0a-b1f4-162f1e886a1c)
+   ![image](https://github.com/user-attachments/assets/7d58baf5-3607-446b-9f0b-075383f7544b)
 
 ### Read data from Properties file
 1. The properties file reader utility is implemented under utils package.
