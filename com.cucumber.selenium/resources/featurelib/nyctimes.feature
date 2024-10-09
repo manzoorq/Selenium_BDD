@@ -7,7 +7,7 @@ Then Verify the home page title
 #Then Verify the home page title is "The New York Times International - Breaking News, US News, World News, Videos" 
 And Verify todays date is correctly displayed in the home page
 
-@SmokeTest1
+@SmokeTest
 Scenario Outline: As a user I want to verify the menu items
 Given User is on the Home page
 Then Verify the home page title
@@ -17,7 +17,7 @@ Examples:
 | SheetName | DataKey |
 | data      | MenuItems	|
 
-@SmokeTest1
+@SmokeTest
 Scenario: As a user I want to search for content
 Given User is on the Home page
 When User searches for desired content with keyword "Biden"
@@ -34,7 +34,7 @@ Then The verify human page should be displayed
 #And Verify B2B SSO button
 #And Log in with test credentials
 
-@SmokeTest1
+@SmokeTest
 Scenario: As a user I want change the edition of NYC Times
 Given User is on the Home page
 Then User changes the edition to "chinese"
