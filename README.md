@@ -1,5 +1,5 @@
  # SeleniumCu_FW Selenium Cucumber BDD Framework
-A maven Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 written to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications or living test documentations.
+A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 designed to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications(living test documentation).
 
 ## Getting Started
 - Clone the repo 'SeleniumCu_FW' to you local machine from commandline by typing `git clone <repo url>.
