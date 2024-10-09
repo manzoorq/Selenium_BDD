@@ -1,0 +1,81 @@
+Started by user Manzurul Qayyum
+Running as SYSTEM
+Building in workspace C:\Users\manzurulqayyum\.jenkins\workspace\tetsaut_fs_mvn_1
+[tetsaut_fs_mvn_1] $ cmd.exe /C '""C:\Users\manzurulqayyum\OneDrive - Nagarro\Documents\Maven\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin\mvn.cmd"' -f C:\Users\manzurulqayyum\git\SeleniumCu_FW\com.cucumber.selenium clean test && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< CucumberSe:com.cucumber.selenium >------------------
+[INFO] Building com.cucumber.selenium 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ com.cucumber.selenium ---
+[INFO] Deleting C:\Users\manzurulqayyum\git\SeleniumCu_FW\com.cucumber.selenium\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ com.cucumber.selenium ---
+[INFO] skip non existing resourceDirectory C:\Users\manzurulqayyum\git\SeleniumCu_FW\com.cucumber.selenium\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ com.cucumber.selenium ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 4 source files with javac [debug target 1.8] to target\classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ com.cucumber.selenium ---
+[INFO] skip non existing resourceDirectory C:\Users\manzurulqayyum\git\SeleniumCu_FW\com.cucumber.selenium\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ com.cucumber.selenium ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 3 source files with javac [debug target 1.8] to target\test-classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[INFO] 
+[INFO] --- surefire:2.20:test (default-test) @ com.cucumber.selenium ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+...
+... TestNG 7.7.1 by Cédric Beust (cedric@beust.com)
+...
+
+
+@SmokeTest1
+Scenario: As a user I want to verify if the home page displays today's date # resources/featurelib/nyctimes.feature:4
+
+@SmokeTest1
+Scenario Outline: As a user I want to verify the menu items # resources/featurelib/nyctimes.feature:18
+init driver
+init driver
+Oct 09, 2024 1:14:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+Oct 09, 2024 1:14:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 129, returning the closest version; found: 127; Please update to a Selenium version that supports CDP version 129
+  Given User is on the Home page                            # stepdefinitions.StepDefs.user_is_on_the_home_page()
+  Then Verify the home page title                           # stepdefinitions.StepDefs.verify_the_home_page_title()
+2024-10-08T19:45:22.095941800Z TestNG-PoolService-1 ERROR Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+  And Verify the main menu "data" and "MenuItems"           # stepdefinitions.StepDefs.verify_the_main_menu(java.lang.String,java.lang.String)
+  Given User is on the Home page                                            # stepdefinitions.StepDefs.user_is_on_the_home_page()
+  Then Verify the home page title                                           # stepdefinitions.StepDefs.verify_the_home_page_title()
+  And Verify todays date is correctly displayed in the home page            # stepdefinitions.StepDefs.verify_todays_date()
+????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/54c4b6a8-83b3-47aa-94dc-baa37665f944 ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.313 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  43.341 s
+[INFO] Finished at: 2024-10-09T01:15:29+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
