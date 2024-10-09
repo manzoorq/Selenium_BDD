@@ -1,16 +1,16 @@
 # SeleniumCu_FW Selenium Cucumber BDD Framework
-A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 designed to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications(living test documentation).
+A robust Test Automation Framework with Selenium 4, Cucumber 7 and TestNG 7 designed to build and run automated tests on web based applications. It is fully compatible with BDD methodology to write and implement executable specifications (living test documentation).
 
 ## Getting Started
 - Clone the repo 'SeleniumCu_FW' to you local machine from commandline by typing `git clone <repo url>.
-- Alternatively open any IDE like Eclipse or InetlliJ and import/clone project from the github repo url as depicted below. 
+- Alternatively open any IDE like Eclipse or IntelliJ and import/clone project from the github repo url as depicted below. 
 ![image](https://github.com/user-attachments/assets/2070a1fc-104d-425d-928a-7597b84d03e2)
 
 ### Prerequisite
 - Java Development Kit (JDK 8 or higher)
 - Maven
 - Git (optional)
-- Jenkins (opional)
+- Jenkins (optional)
 - IDE Eclipse or IntelliJ
   
 ### Run tests locally
@@ -35,7 +35,7 @@ Currently only Chrome, Firefox and Edge browsers are supported. In future suppor
 
 ### Read data from Properties file
 1. The properties file reader utility is implemented under utils package.
-2. It helps to read data data from the config.properties file present under the _./resources/config.properties_ file.
+2. It helps to read data from the config.properties file present under the _./resources/config.properties_ file.
 3. Use the loadData() method to load the config.property file and getObject(<<property name>) method to read properties.
 4. For example please refer to the Log in functionliy test scenario where username and password have been read from the config.properties file.
 
