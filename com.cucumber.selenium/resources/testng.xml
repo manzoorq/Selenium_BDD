@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="NYC Times Test Suite" verbose="2" parallel="classes" thread-count="1">
+<suite name="NYC Times Test Suite" verbose="2" parallel="classes" thread-count="3">
     <test name="Nyc tests" preserve-order="true">
         <classes>
             <class name="runners.TestRunner" />
