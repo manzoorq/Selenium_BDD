@@ -24,9 +24,7 @@ To run tests right click on the project root directory in the IDE > Package Expl
 By default the tests run in Chrome browser. If you wish to run it in Firefox browser or Edge navigate to the path _./resources/_ and open the file config.properties.
 Change the value of the key `browser` to the desired browser name i.e. `chrome` or `firefox` or `edge` as per requirement and save the file.
 Currently only Chrome, Firefox and Edge browsers are supported. In future support for browsers may be added.
-![image](https://github.com/user-attachments/assets/d71ef424-b1d9-449b-95e7-6dee6c1f51b4)
-
-
+![image](https://github.com/user-attachments/assets/b9ff1bc8-a313-4621-b283-5f55f27a158a)
 
 ### Read data from Excel
 1. Use the Exceutils class under the utility package to read data from excel sheet.
