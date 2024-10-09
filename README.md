@@ -60,7 +60,7 @@ Runner file
 2. For step implementations add you step definition files under  _./src/test/java/stepdefinitions_ package. For help please refer to the [Cucumber Step Sefinitions documentation](https://cucumber.io/docs/cucumber/step-definitions/?lang=java)
 
 ### Run tests in parallel
-1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of derired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image]![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
+1. To run tests in parallel update the number of threads in the _./resources/testng.xml/_ file to number of derired test you want to run in parallel. For example the  _thread-count_ is set to _2_ as depicted in the testng.xml file below. Make sure atleast 2 scenarios are available to run in the feature files as per the run tag configured in _TestRunner_ file.![image](https://github.com/user-attachments/assets/a1b5acfe-f1af-4135-8128-192894caa1e9)
 2. Run the run test locally from IDE or from commandline `mvn clean test`. The tests should be trigerred parallelly.
 
 ### Run from Jenkins(CI/CD)
