@@ -37,5 +37,6 @@ Then The verify human page should be displayed
 @SmokeTest1
 Scenario: As a user I want change the edition of NYC Times
 Given User is on the Home page
-Then User changes the edition to "chinese"
+When User changes the edition to "chinese"
+Then Accept the Terms pop up
 And User verifies the "chinese" edition is displayed
