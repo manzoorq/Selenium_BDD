@@ -86,6 +86,10 @@ public class NYT_Home {//page object class
 	
 	@FindBy(xpath = "//li[contains(@data-testid,'chinese')]")
 	WebElement editionChinese;
+	
+	@FindBy(xpath = "//button[text()='Continue']")
+	WebElement buttonContinueTermsPopup;
+	
 
 	public NYT_Home(WebDriver driver) {
 		this.driver = driver;
@@ -223,4 +227,13 @@ public class NYT_Home {//page object class
 	public void navToChineseEdition() {
 		editionChinese.click();
 	}
+	
+	public boolean isTermsPopupDisplayed() {
+		return buttonContinueTermsPopup.isDisplayed();
+	}
+	
+	public void clickTermsPopupContinueButton() {
+		buttonContinueTermsPopup.click();
+	}
+	
 }

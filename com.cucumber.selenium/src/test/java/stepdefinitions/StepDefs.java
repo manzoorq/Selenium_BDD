@@ -192,4 +192,11 @@ public class StepDefs {
 		}
 	}
 	
+	@And("Accept the Terms pop up")
+	public void accept_the_terms_popup() {
+		if(nyHomeObj.isTermsPopupDisplayed())
+			nyHomeObj.clickTermsPopupContinueButton();
+	}
+
+	
 }

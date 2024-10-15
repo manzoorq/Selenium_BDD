@@ -34,8 +34,9 @@ Then The verify human page should be displayed
 #And Verify B2B SSO button
 #And Log in with test credentials
 
-@SmokeTest
+@SmokeTest1
 Scenario: As a user I want change the edition of NYC Times
 Given User is on the Home page
+And Accept the Terms pop up
 Then User changes the edition to "chinese"
 And User verifies the "chinese" edition is displayed
